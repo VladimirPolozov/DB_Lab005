@@ -2,73 +2,73 @@ use("FirstBase");
 
 db.employee_blank.insertMany([
     {
-      ID: 1,
-      NAME: "Иван",
-      SERNAME: "Иванов",
-      FATHER_NAME: "Иванович",
-      EMAIL: "ivan@gmail.com",
-      TELEFONE_NUMBER: "8(777)111-11-11",
-      INFORMATION: "Дата рождения: 10.10.1987. Увлечения: плавание, шахматы",
-      PRIKAZ: "Номер уведомления: 123"
+      id: 1,
+      name: "Иван",
+      sername: "Иванов",
+      father_name: "Иванович",
+      email: "ivan@gmail.com",
+      telephone_number: "8(777)111-11-11",
+      information: "Дата рождения: 10.10.1987. Увлечения: плавание, шахматы",
+      prikaz: "Номер уведомления: 123"
     },
     {
-      ID: 2,
-      NAME: "Николай",
-      SERNAME: "Семерук",
-      FATHER_NAME: "Александрович",
-      EMAIL: "killer@rambler.ru",
-      TELEFONE_NUMBER: "7(777)523-68-91",
-      INFORMATION: "Увлечения: бокс",
-      PRIKAZ: "Номер приказа: 1001"
+      id: 2,
+      name: "Николай",
+      sername: "Семерук",
+      father_name: "Александрович",
+      email: "killer@rambler.ru",
+      telephone_number: "7(777)523-68-91",
+      information: "Увлечения: бокс",
+      prikaz: "Номер приказа: 1001"
     },
     {
-      ID: 3,
-      NAME: "Александр",
-      SERNAME: "Хопта",
-      FATHER_NAME: "Петрович",
-      EMAIL: "sasha@.ru",
-      TELEFONE_NUMBER: "(2-20-47)",
-      INFORMATION: "Дата рождения: 10.07.1987. Увлечения: плавание",
-      PRIKAZ: "Номер распоряжения: 202"
+      id: 3,
+      name: "Александр",
+      sername: "Хопта",
+      father_name: "Петрович",
+      email: "sasha@.ru",
+      telephone_number: "(2-20-47)",
+      information: "Дата рождения: 10.07.1987. Увлечения: плавание",
+      prikaz: "Номер распоряжения: 202"
     },
     {
-      ID: 4,
-      NAME: "Владимир",
-      SERNAME: "Никифоров",
-      FATHER_NAME: "Александрович",
-      EMAIL: "vova@rambler.ru",
-      TELEFONE_NUMBER: "2-45-48",
-      INFORMATION: "Дата рождения: 12.07.1967",
-      PRIKAZ: "Номер приказа: 404"
+      id: 4,
+      name: "Владимир",
+      sername: "Никифоров",
+      father_name: "Александрович",
+      email: "vova@rambler.ru",
+      telephone_number: "2-45-48",
+      information: "Дата рождения: 12.07.1967",
+      prikaz: "Номер приказа: 404"
     },
     {
-      ID: 5,
-      NAME: "Семен",
-      SERNAME: "Лобанов",
-      FATHER_NAME: "Иванович",
-      EMAIL: "semen@yandex.com",
-      TELEFONE_NUMBER: "8(777)654-12-21",
-      INFORMATION: "Дата рождения: 10.01.1987. Увлечения: борьба",
-      PRIKAZ: "Номер приказа: 15"
+      id: 5,
+      name: "Семен",
+      sername: "Лобанов",
+      father_name: "Иванович",
+      email: "semen@yandex.com",
+      telephone_number: "8(777)654-12-21",
+      information: "Дата рождения: 10.01.1987. Увлечения: борьба",
+      prikaz: "Номер приказа: 15"
     },
     {
-      ID: 6,
-      NAME: "Глеб",
-      SERNAME: "Кисегач",
-      FATHER_NAME: "Викторович",
-      EMAIL: "gleb@mail.",
-      TELEFONE_NUMBER: "2-87-98",
-      INFORMATION: "Увлечения: компьютерные игры",
-      PRIKAZ: "Номер распоряжения: 333"
+      id: 6,
+      name: "Глеб",
+      sername: "Кисегач",
+      father_name: "Викторович",
+      email: "gleb@mail.",
+      telephone_number: "2-87-98",
+      information: "Увлечения: компьютерные игры",
+      prikaz: "Номер распоряжения: 333"
     },
     {
-      ID: 7,
-      NAME: "Варя",
-      SERNAME: "Черноус",
-      FATHER_NAME: "Петрович",
-      EMAIL: "cher@mail.ru",
-      TELEFONE_NUMBER: null,
-      INFORMATION: "Дата рождения: 14.01.1980",
-      PRIKAZ: "Номер приказа: 1"
+      id: 7,
+      name: "Варя",
+      sername: "Черноус",
+      father_name: "Петрович",
+      email: "cher@mail.ru",
+      telephone_number: null,
+      information: "Дата рождения: 14.01.1980",
+      prikaz: "Номер приказа: 1"
     }
   ]);
